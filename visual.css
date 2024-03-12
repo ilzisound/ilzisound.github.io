@@ -1,0 +1,195 @@
+  body::after {
+    content: "";
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('w7osH_PJsx63AX_370x370.jpeg');
+    background-size: cover;
+    z-index: -1;
+    filter: blur(10px);
+  }
+body {
+  font-size: 16px;
+}
+  html{
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ a img{
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+ a{
+  display: flex;
+  align-items: center;
+  color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 1px;
+    border-radius: 12px;
+    font-size: large;
+  }
+  
+  .sber p{
+    position: relative;
+ margin-left: -2px;
+
+  }
+
+
+  .otstup8 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
+  .amazon p{
+    position: relative;
+    margin-left: -5px;
+  }
+
+  .yout p{
+    position: relative;
+    margin-left: -4px;
+  }
+  
+  .yand p{
+    position: relative;
+    margin-left: -6px;
+  }
+
+  .название {
+  color: white;
+    background-color: rgb(0, 0, 0);
+    margin-top: -5px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-bottom: 20px;
+
+  }
+
+  .умом p{
+    margin-left: 15px;
+    margin-top: -7px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .ilzi strong{
+    margin-left: 15px;
+    margin-top: 1px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .hr1{
+    margin-top: 5px;
+    size: 50px;
+  }
+
+  .топфото img{
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+  }
+  
+  .otstup8 a:hover
+  {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+.otstup8 a .слушать p {
+  position:relative;
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  margin-left: 90px;
+  background-color: rgb(0, 0, 0);
+  padding: 9px;
+  border-radius: 10px;
+  
+}  
+
+.otstup8 a .слушать p:hover
+{
+  background-color: rgba(143, 37, 37, 0.7);
+  padding: 8px;
+  cursor: pointer;
+}
+
+
+
+/* Скрыть выпадающее меню по умолчанию */
+.dropdown-content {
+  position: absolute; 
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+
+/* Скрыть стилизованную кнопку */
+.dropbtn {
+  background-color: #ffffff;
+  padding-right: 314px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+ border-top-left-radius: 12px;
+ border-top-right-radius: 12px;
+  cursor: pointer;
+  border: none;
+}
+
+/* Показывать выпадающее меню при наведении на кнопку */
+.dropdown:hover .dropdown-content {
+  display: block;
+  max-height: 350px;
+}
+
+.dropdown .dropbtn img {
+  transition: transform 0.3s
+}
+
+
+
+.dropbtn:hover img,
+.dropdown .dropbtn img:hover {
+  transform: rotate(90deg);
+}
+
+.dropdown .dropbtn .qrcode1 p
+{
+  position:absolute;
+  margin-top: -32px;
+  margin-left: 40px;
+  font-size: x-large;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #524c4c;
+}
+
+.dropdown-content img {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.copyright {
+  display:flex;
+  position:relative;
+  color: #ffffff;
+  margin-top: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright1 {
+  display:flex;
+  color: #ffffff;
+  margin-top: -40px;
+  justify-content: center;
+  align-items: center;
+  
+}
